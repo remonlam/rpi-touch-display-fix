@@ -12,8 +12,8 @@ Well you can edit the config.txt and add the correct line, or download and execu
 Download sh script from GitHub
 sudo wget -P /tmp https://raw.githubusercontent.com/remonlam/rpi-touch-display-fix/master/rpi-touch-display-fix.sh
 
-# Make file executable
+### Make file executable
 sudo chmod 755 rpi-touch-display-fix.sh
 
-# Run script.
+### Run script.
 /tmp/./rpi-touch-display-fix.sh
