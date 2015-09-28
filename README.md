@@ -13,11 +13,11 @@ NOTE: do NOT use the "display_rotate" option this only flip the screen and not t
 ## How to get this "fix" working?
 Well you can edit the config.txt and add the correct line, or download and execute the shell script :-)
 
-### Download sh script from GitHub
+#### Download sh script from GitHub
 sudo wget -P /tmp https://raw.githubusercontent.com/remonlam/rpi-touch-display-fix/master/rpi-touch-display-fix.sh
 
-### Make file executable
+#### Make file executable
 sudo chmod 755 /tmp/rpi-touch-display-fix.sh
 
-### Run script.
+#### Run script.
 /tmp/./rpi-touch-display-fix.sh
