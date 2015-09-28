@@ -5,7 +5,7 @@ The added line will make sure that the display will flip back to normal, also it
 
 NOTE: do NOT use the "display_rotate" option this only flip the screen and not the touch interface!
 
-How to get this "fix" working?
+## How to get this "fix" working?
 Well you can edit the config.txt and add the correct line, or download and execute the shell script :-)
 
 ### Download sh script from GitHub
