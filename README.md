@@ -1,4 +1,4 @@
-# Install APCUPS on Raspbian (RPI)
+# Fix for RPI Touch Display rotation issue
 
 Great so you have the official Raspberry Pi Touch Screen, however when updating the system and the necessary reboot you might end up with a flipped screen.
 Somehow the Raspberry Pi foundation thought it's cool to make this change in the code ;-)
