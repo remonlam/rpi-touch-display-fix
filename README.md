@@ -4,7 +4,7 @@ Great so you have the official Raspberry Pi Touch Screen, however when updating 
 Somehow the Raspberry Pi foundation thought it's cool to make this change in the code ;-)
 Read more information about this issue on the Raspberry Pi Forums https://www.raspberrypi.org/forums/viewforum.php?f=108
 
-# How to fix this issue?
+## How to fix this issue?
 This script will a one line lcd_rotate=2" to the /boot/config.txt in order to fix the rotation issue with the RPI Touch Display.
 The added line will make sure that the display will flip back to normal, also it will make sure the touch will rotate so it matches the screen.
 
