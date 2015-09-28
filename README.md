@@ -1,4 +1,4 @@
-# Install APCUPS on Raspbian (Raspberry Pi)
+# Install APCUPS on Raspbian (RPI)
 
 This script will a one line lcd_rotate=2" to the /boot/config.txt in order to fix the rotation issue with the RPI Touch Display.
 The added line will make sure that the display will flip back to normal, also it will make sure the touch will rotate so it matches the screen.
@@ -12,7 +12,7 @@ Well you can edit the config.txt and add the correct line, or download and execu
 sudo wget -P /tmp https://raw.githubusercontent.com/remonlam/rpi-touch-display-fix/master/rpi-touch-display-fix.sh
 
 ### Make file executable
-sudo chmod 755 rpi-touch-display-fix.sh
+sudo chmod 755 /tmp/rpi-touch-display-fix.sh
 
 ### Run script.
 /tmp/./rpi-touch-display-fix.sh
