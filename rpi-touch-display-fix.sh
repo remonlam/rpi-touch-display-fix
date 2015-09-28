@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # This script will a one line lcd_rotate=2" to the /boot/config.txt in order to fix the rotation issue with the RPI Touch Display.
 # The added line will make sure that the display will flip back to normal, also it will make sure the touch will rotate so it matches the screen.
 #
